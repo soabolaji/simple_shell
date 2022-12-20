@@ -1,10 +1,10 @@
-.TH SHELLBY 1 "December 2022" "Alx School" "0x16. C - Simple Shell"
+.TH HSH 1 "December 2022" "Alx School" "0x16. C - Simple Shell"
 .SH NAME
-.B shellby\fR \- simple UNIX command interpreter
+.B hsh\fR \- simple UNIX command interpreter
 .SH SYNOPSIS
-.B shellby\fR [\fIfilename\fR]
+.B hsh\fR [\fIfilename\fR]
 .SH DESCRIPTION
-.B Shellby\fR is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.
+.B hsh\fR is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.
 
 .B Invocation
 .in +2n
@@ -176,5 +176,5 @@ Upon failure, prints a message to \fBstderr\fR.
 .SH SEE ALSO
 access(2), chdir(2), execve(2), _exit(2), exit(3), fflush(3), fork(2), free(3), isatty(3), getcwd(3), malloc(3), open(2), read(2), sh(1), signal(2), stat(2), wait(2), write(2)
 
-.B Shellby\fR emulates basic functionality of the \fBsh\fR shell.
+.B hsh\fR emulates basic functionality of the \fBsh\fR shell.
 This man page borrows from the corresponding man pages sh(1) and dash(1).
