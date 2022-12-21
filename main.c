@@ -22,7 +22,7 @@ void sig_handler(int sig)
  * @front: A double pointer to the beginning of args.
  *
  * Return: If an error occurs - a corresponding error code.
- *		O/w - The exit value of the last executed command.
+ *		Otherwise - The exit value of the last executed command.
  */
 int execute(char **args, char **front)
 {

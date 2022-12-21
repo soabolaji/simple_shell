@@ -24,7 +24,7 @@ int _strlen(const char *s)
 
 /**
  * _strcpy - Copies the string pointed to by src, including the
- *           terminating null byte, to the buffer pointed by des.
+ *		terminating null byte, to the buffer pointed by des.
  * @dest: Pointer to the destination of copied string.
  * @src: Pointer to the src of the source string.
  *
