@@ -12,7 +12,7 @@ int check_args(char **args);
  * @exe_ret: The return value of the last executed command.
  *
  * Return: If an error occurs - NULL.
- *         Otherwise - a pointer to the stored command.
+ *		Otherwise - a pointer to the stored command.
  */
 char *get_args(char *line, int *exe_ret)
 {

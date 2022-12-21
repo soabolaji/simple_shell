@@ -10,7 +10,7 @@ void logical_ops(char *line, ssize_t *new_len);
  * @read: The length of line.
  *
  * Description: Spaces are inserted to separate ";", "||", and "&&".
- *              Replaces "#" with '\0'.
+ *		Replaces "#" with '\0'.
  */
 void handle_line(char **line, ssize_t read)
 {

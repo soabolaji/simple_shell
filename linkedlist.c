@@ -12,7 +12,7 @@ void free_list(list_t *head);
  * @value: The value of the new alias to be added.
  *
  * Return: If an error occurs - NULL.
- *         Otherwise - a pointer to the new node.
+ *		Otherwise - a pointer to the new node.
  */
 alias_t *add_alias_end(alias_t **head, char *name, char *value)
 {
