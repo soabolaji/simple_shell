@@ -293,7 +293,7 @@ $
 ## Authors 
 
 * Stephen Abolaji <[soabolaji](https://github.com/soabolaji)>
-* Kuoassi Isreal <[8sreal](https://github.com/8sreal)>
+* Kouassi Israel <[8srael](https://github.com/8srael)>
 
 
 ## Acknowledgements 
